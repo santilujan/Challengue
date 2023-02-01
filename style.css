@@ -1,0 +1,47 @@
+body{
+    background: #F0F8FF;
+}
+.imagenalura{
+    width: 31px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+
+}
+#texto-ingresado{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    border: none;
+    background: #F0F8FF;
+    font-size: 20px;
+
+}
+
+#textoingresado:onclick{
+    border: none;
+}
+#boton-encriptado{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    width: 15%;
+    padding: 8px;
+    background: #FF5B33;
+    border-radius: 10px;
+    font-style: italic;
+    border-color: #FF5B33;
+}
+
+#boton-desencriptado{
+    position: absolute;
+    top: 75%;
+    left: 27%;
+    width: 15%;
+    padding: 8px;
+    background: #F0F8FF;
+    border-radius: 10px;
+    font-style: italic;
+    border-color: blue;
+   
+}
