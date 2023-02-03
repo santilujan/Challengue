@@ -1,1 +1,7 @@
-var input = document.querySelector("input")
+const textarea = document.querySelector(".texto-ingresado")
+const mensaje = document.querySelector(".mensaje")
+const copia = document.querySelector(".copiar")
+
+function validacion(){
+    
+}
