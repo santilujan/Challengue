@@ -25,20 +25,22 @@
                     <h6 class="informacion"> Solo letras minúsculas y sin acentos</h6>
                 </div>
                 <div class="botones">
-                    <button class="encriptar"> Encriptar </button>
-                    <button class="desencriptar"> Desencriptar </button>
+                    <button class="encriptar" onclick="btnencriptar()"> Encriptar </button>
+                    <button class="desencriptar" onclick="btndesencriptar()"> Desencriptar </button>
                 </div>
             </section>
             <section>
-                <textarea class="mensaje" cols="20" rows="10"> </textarea>
+                <textarea class="mensaje" cols="20" rows="10" placeholder="INgrese"> </textarea>
                 <div>
-                    <button class="copiar"> Copiar </button>
+                   
+                    <button class="copiar" onclick="btncopiar()"> Copiar </button>
                 </div>
-            </section>
+            </section>    
             
         
 
-        </main>    
+        </main>   
+        <script src="challengue.js"></script> 
         <footer>
             <p class="copyright">&copy Copyright Santino Lujan - 2023 - Challengue</p>
 

@@ -65,6 +65,9 @@ main{
     
     width: 328px;
 }
+.encriptar:hover{
+    transform: scale(1.05);
+}
 
 .desencriptar{
     background: #0A3871;
@@ -77,6 +80,10 @@ main{
     width: 328px;
 }
 
+.desencriptar:hover{
+    transform: scale(1.05);
+}
+
 .copiar{
     border: 1px solid #0A3871;
     border-radius: 24px;
@@ -87,6 +94,13 @@ main{
     margin-top: 402px;
     position: fixed;
     width: 336px;
+    transition: 0.5s all;
+}
+
+.copiar:hover{
+    background: #0A3871;
+    transform: scale(1.05);
+    color: white;
 }
 
 .informacion{
