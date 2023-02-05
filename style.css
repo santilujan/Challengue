@@ -22,8 +22,7 @@ main{
 .texto-ingresado{
     border: none;
     color: #0A3871;
-    margin-top: 90px;
-    text-transform: lowercase;
+    margin-top: 40px;
     padding-left: 10px;
 }
 
@@ -40,18 +39,20 @@ main{
     border: none;
     border-radius: 24px;
     color: #0A3871;
-    margin-left: 98px;
+    margin-left: 180px;
     padding-left: 20px;
-    position: fixed;
+    position: absolute;
+    height: 90%;
 }
 
 .mensaje:focus{
     outline: none;
 }
 
+
 .botones{
     display: flex;
-    margin-top: 18px;
+    
 
 }
 
@@ -90,9 +91,9 @@ main{
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    margin-left: 108px;
-    margin-top: 402px;
-    position: fixed;
+    margin-left: 195px;
+    margin-top: 580px;
+    position: absolute;
     width: 336px;
     transition: 0.5s all;
 }
@@ -106,6 +107,7 @@ main{
 .informacion{
     color: #495057;
     font-size: 18px;
+
 }
 
 footer{
@@ -116,4 +118,14 @@ footer{
     color: black;
     font-size: 13px;
     margin: 20px;
+}
+
+.linkdin{
+    width: 3%;
+    text-align: center;
+}
+
+.github{
+    width: 3%;
+    text-align: center;
 }
