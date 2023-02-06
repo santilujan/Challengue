@@ -129,3 +129,50 @@ footer{
     width: 3%;
     text-align: center;
 }
+
+@media screen and (max-width:480px){
+    .logo-alura{
+        width: auto;
+        padding-left: 0px;
+    }
+    main{
+        margin-left: 0px;
+        display: inline-block;
+    }
+
+
+    .botones{
+        display: inline;
+    }
+
+    *{
+        font-size: 25px;
+    }
+
+    .desencriptar, .encriptar{
+        margin-left: 0px;
+        height: auto;
+    }
+
+    .sectionmensaje, .sectiontexto{
+        text-align: center;
+    }
+    .mensaje{
+        width: 80%;
+        margin-left: 0px;
+        position: relative;
+        height: auto;
+        margin-top: 20px;
+
+    }
+
+    .copiar{
+        position: relative;
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+
+   
+
+}
