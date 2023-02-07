@@ -49,11 +49,15 @@ function encriptar(MEncriptado){
 
 function btnencriptar(){
     if(validacion(textarea.value) == true){
-    const textEncriptado = encriptar(textarea.value)
-    mensaje.value = textEncriptado
-    textarea.value = "";
-    mensaje.style.backgroundImage = "none"
-    copia.textContent =  "Copiar"
+        if(encriptar(textarea.value) == ""){
+            alert("No se ingreso ningun mensaje")
+        } else{
+        const textEncriptado = encriptar(textarea.value)
+        mensaje.value = textEncriptado
+        textarea.value = "";
+        mensaje.style.backgroundImage = "none"
+        copia.textContent =  "Copiar"
+        }
     } 
 }
 
@@ -72,11 +76,17 @@ function desencriptar(Mdesencriptado){
 }
 
 function btndesencriptar(){ 
+    if(validacion(textarea.value) == true){
+        if(desencriptar(textarea.value) == ""){
+            alert("No se ingreso ningun mensaje")
+        } else{
     const textDesencriptado = desencriptar(textarea.value)
     mensaje.value = textDesencriptado
     textarea.value = "";
     mensaje.style.backgroundImage = "none"
     copia.textContent = "Copiar"
+        }
+    }
 }
 
 function btncopiar(){
