@@ -32,6 +32,11 @@ main{
     outline: none;
 }
 
+.informacion{
+    font-size: 18px;
+    font-style: 'Inter';
+}
+
 .botones{
     display: flex;
     
